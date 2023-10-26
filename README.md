@@ -1,5 +1,3 @@
-**Project Title**: PixoCloud - Image Management System
-
 **Project Description**:
 
 **PixoCloud** is a web-based image management system, implemented using JavaServer Pages (JSP), designed to provide users with a seamless platform for efficient image file management. This application empowers users to upload, organize, view, and delete their image files in a user-friendly, secure, and organized environment.
@@ -79,53 +77,74 @@ The project is designed with the potential for further enhancements, such as ima
 
 **1. Login Page**:
 
-![login Page](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/2c17f42e-1acf-4aa7-ace3-6ae3c282977a)
+![Login - Google Chrome 2023-10-26 12-58-56](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/bd65013d-08ad-4975-b2cf-2ee793ea8e7e)
 
 **2. Registration Page**:
 
-![Registration Page](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/b3fd1f81-dcdc-4d4f-8940-d3193f98c9bb)
+![User Registration - Google Chrome 2023-10-26 13-06-42](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/523667b8-86a2-4327-ba75-33e6d3d9ac4b)
+
 
 **3. Redirect to login after Secessfull Registration**:
 
-![Sucessfull Redirection to Login Page After Registration](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/f2530526-1bc6-4cfe-932b-cb2e00d0b08b)
+![Untitled desi](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/c1b93740-ff55-4694-acaa-e316fe1bc658)
 
 **4.Home View**:
 
-![Home Page View](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/385b571e-e2fb-42d7-a7b8-7b376eaa26fb)
+**1. Home Loading spinner**:
 
-**5.Footer View**:
+![Login - Google Chrome 2023-10-26 13-14-59](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/924a8739-93ef-4526-91bf-d1e34eccc529)
 
-![footer View](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/8f74c8dc-f010-4214-88b9-5db8124cbd81)
+**2. Home Shimmer loading effect on Images and full view of home page**:
 
-**6.You can Upload Multiple Image at a time**:
+![home view](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/83611640-e291-4cd8-baea-2c16ad3ec567)
 
-![You can Upload Multiple Image at a time](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/0a744525-0ac4-4725-b168-e87556541f1c)
+**5.You can Upload Multiple Image at a time**:
 
-**7.select button For Select image one by one**:
-
-![select button For Select image one by one](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/273700c1-9725-45fa-be23-145d33af4080)
-
-**8.User can Select all images and also can Unselect them**:
-
-![User can Select all images and also can Unselect them](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/1ba4ebba-cd23-46dd-9792-12947a945085)
-
-**9.Delete Button with Warning Dialog box**:
-
-![Delete Button with Warning Dialog box](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/86a732d4-e0d7-43bd-b237-5aa961b8f65a)
-
-**10.full screen View and user can Download image and can  Scroll with Arrows**:
-
-![full screen View and user can Download image and can Scroll with Arrows](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/5f3fd2c8-74c5-48a8-8dd4-808accbcf1e4)
+![Untitled design](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/2716d153-c5c6-4ce6-bff2-9a559b227eb6)
 
 
-**10.Logout Button**:
 
-![logout Button](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/24403bba-89d9-499b-a5ed-726196530e02)
+**6.select button For Select image one by one**:
 
-**10.
-1.Data encryption.
-2.Only User can see the images.
-3.Images are private so another user Can see Data of any User even using links.
-4.User Can not user  duplicate Images.**:
+![Select Button](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/6cee3966-eba4-4f70-ab73-fc80f41d0b2b)
 
-![User Data encryption](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/94967972-36b5-4e25-8f82-46e235fd1a8c)
+
+**7.User can Select all images and also can Unselect them**:
+
+![SelectAll and Unselect Button](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/c390764b-23c4-48d9-963f-7f919b8c8fe9)
+
+
+**8.Delete Button with Warning Dialog box**:
+
+![Delete button](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/2a0c0d2b-8cbf-4a31-99eb-768abc194c0c)
+
+
+**9.full screen View and user can Download image and can  Scroll with Arrows**:
+
+![full screen](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/12d6aa53-3bfb-48b1-b86f-1471b56b8d7b)
+
+
+**10.Profile Avatar where user can update profile and can logout**:
+
+![Avatar profile](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/e2bc984e-237a-4605-9b1c-a6f700259b63)
+
+**1. Update Profile and after Update Profile view**:
+
+![profile update](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/a0741b0c-ac96-41ff-ae30-82c891a919ee)
+
+**2. Logout**:
+
+![logout](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/343342a4-88a4-4178-947f-24ce5578ed67)
+
+
+**11. User Data Privacy:**
+
+**1.Data encryption.**
+
+**2.Only User can see the images.**
+
+**3.Images are private so another user Can see Data of any User even using links.**
+
+**4.User Can not upload duplicate Images.**:
+
+![Duplicate Warning](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/f971a392-e30c-4ded-9612-e19afd2371d7)
