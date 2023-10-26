@@ -7,8 +7,17 @@
     <title>Pixo Cloud</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
+</head>
 <jsp:include page="header.jsp" />
 <body>
+    
+    <div id="loading-spinner" class="spinner">
+    <div class="bounce1"></div>
+    <div class="bounce2"></div>
+    <div class="bounce3"></div>
+</div>
+
 <%
 String username = (String) session.getAttribute("username");
 if (username == null) {
@@ -17,11 +26,11 @@ if (username == null) {
 }
 %>
 
-<div class="logout-button-container">
+<!--<div class="logout-button-container">
     <form action="logout.jsp" method="post">
         <input type="submit" value="Logout" class="logout-button">
     </form>
-</div>
+</div>-->
 
 <div id="imageModal" class="modal">
     <span class="close" onclick="closeImageModal()">&times;</span>
@@ -79,10 +88,13 @@ if (username == null) {
         while (rs.next()) {
             String uniqueFileName = rs.getString("unique_filename");
             %>
-            <div class="image-card">
-                <img src="images/<%= uniqueFileName %>" alt="<%= uniqueFileName %>" onclick="openImageModal('images/<%= uniqueFileName %>')">
-                <input type="checkbox" class="image-checkbox" name="selectedImages" value="<%= uniqueFileName %>">
-            </div>
+    <div class="image-card">
+  <div class="shimmer"></div>
+  <img src="images/<%= uniqueFileName %>" alt="<%= uniqueFileName %>" style="display: none;" onclick="openImageModal('images/<%= uniqueFileName %>')">
+  <input type="checkbox" class="image-checkbox" name="selectedImages" value="<%= uniqueFileName %>">
+</div>
+
+
             <%
             imagesExist = true; // Images are found in the database
         }
@@ -140,25 +152,31 @@ if (username == null) {
         modal.style.display = "none";
     }
 
-    function showPreviousImage() {
-        if (imageIndex > 0) {
-            imageIndex--;
-            var imageCards = document.getElementsByClassName("image-card");
-            var imageUrl = imageCards[imageIndex].firstElementChild.getAttribute("alt");
-            openImageModal("images/" + imageUrl);
-            updateNavigationArrows();
-        }
-    }
+function showPreviousImage() {
+    var imageCards = document.getElementsByClassName("image-card");
 
-    function showNextImage() {
-        var imageCards = document.getElementsByClassName("image-card");
-        if (imageIndex < imageCards.length - 1) {
-            imageIndex++;
-            var imageUrl = imageCards[imageIndex].firstElementChild.getAttribute("alt");
-            openImageModal("images/" + imageUrl);
-            updateNavigationArrows();
-        }
+    // Check if there is a previous image
+    if (imageIndex > 0) {
+        imageIndex--; // Decrement the index to move to the previous image
+        var imageUrl = imageCards[imageIndex].querySelector("img").getAttribute("src");
+        openImageModal(imageUrl);
+        updateNavigationArrows();
     }
+}
+
+
+function showNextImage() {
+    var imageCards = document.getElementsByClassName("image-card");
+
+    // Check if there is a next image
+    if (imageIndex < imageCards.length - 1) {
+        imageIndex++; // Increment the index to move to the next image
+        var imageUrl = imageCards[imageIndex].querySelector("img").getAttribute("src");
+        openImageModal(imageUrl);
+        updateNavigationArrows();
+    }
+}
+
 
     function updateNavigationArrows() {
         var prevButton = document.getElementById("prevButton");
@@ -420,7 +438,34 @@ function displaySelectedFileNames() {
     }
 }
 
+// Function to hide the loading spinner and background after 4 seconds
+function hideLoadingSpinner() {
+    var loadingSpinner = document.getElementById("loading-spinner");
+    loadingSpinner.style.display = "none";
+    document.body.style.overflow = "auto"; // Restore scrolling
+    
+}
+// Hide the loading spinner and background after 2.5 seconds (2500 milliseconds)
+setTimeout(hideLoadingSpinner, 2500);
 
+//for Shimmer delay and img
+window.addEventListener("load", function() {
+    setTimeout(function() {
+      const imageCards = document.querySelectorAll(".image-card");
+
+      imageCards.forEach(function(card) {
+        const shimmer = card.querySelector(".shimmer");
+        const image = card.querySelector("img");
+
+        if (shimmer) {
+          shimmer.style.display = "none"; // Hide the shimmer
+        }
+        if (image) {
+          image.style.display = "block"; // Display the image
+        }
+      });
+    }, 5000); // 5 seconds (5000 milliseconds) delay
+  });
 </script>
 
 <jsp:include page="footer.jsp" />

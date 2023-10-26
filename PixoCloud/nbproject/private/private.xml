@@ -5,9 +5,13 @@
         <group>
             <file>file:/C:/Users/adhfa/Downloads/PixoCloud/PixoCloud/web/footer.jsp</file>
             <file>file:/C:/Users/adhfa/Downloads/PixoCloud/PixoCloud/web/home.jsp</file>
+            <file>file:/C:/Users/adhfa/Downloads/PixoCloud/PixoCloud/web/loginProcess.jsp</file>
+            <file>file:/C:/Users/adhfa/Downloads/PixoCloud/PixoCloud/web/registerProcess.jsp</file>
             <file>file:/C:/Users/adhfa/Downloads/PixoCloud/PixoCloud/src/java/ImageDeleteServlet.java</file>
             <file>file:/C:/Users/adhfa/Downloads/PixoCloud/PixoCloud/web/index.jsp</file>
-            <file>file:/C:/Users/adhfa/Downloads/PixoCloud/PixoCloud/web/styles.css</file>
+            <file>file:/C:/Users/adhfa/Downloads/PixoCloud/PixoCloud/web/updatedprofile.jsp</file>
+            <file>file:/C:/Users/adhfa/Downloads/PixoCloud/PixoCloud/web/edit_profile.jsp</file>
+            <file>file:/C:/Users/adhfa/Downloads/PixoCloud/PixoCloud/src/java/UpdateProfileServlet.java</file>
             <file>file:/C:/Users/adhfa/Downloads/PixoCloud/PixoCloud/src/java/ImageUploadServlet.java</file>
             <file>file:/C:/Users/adhfa/Downloads/PixoCloud/PixoCloud/web/header.jsp</file>
         </group>

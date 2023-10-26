@@ -41,7 +41,27 @@ public class ImageUploadServlet extends HttpServlet {
 
                 // Check if the file with the same original filename already exists in the database
                 if (isDuplicateOriginalFileName(username, originalFileName)) {
-                    response.getWriter().println("File with the same original filename already exists.");
+                  response.getWriter().println("<!DOCTYPE html>");
+response.getWriter().println("<html>");
+response.getWriter().println("<head>");
+response.getWriter().println("<meta charset='UTF-8'>");
+response.getWriter().println("<title>Warning Message</title>");
+response.getWriter().println("<style>");
+response.getWriter().println("  body { font-family: Arial, sans-serif; background-color: #f7f7f7; text-align: center; }");
+response.getWriter().println("  .container { background-color: #ffcccc; padding: 20px; border: 1px solid #ff0000; width: 300px; margin: 0 auto; }");
+response.getWriter().println("  .warning { color: #ff0000; font-size: 1.2em; }");
+response.getWriter().println("  .goback-button { background-color: #008CBA; color: white; padding: 10px 20px; border: none; text-decoration: none; cursor: pointer; }");
+response.getWriter().println("</style>");
+response.getWriter().println("</head>");
+response.getWriter().println("<body>");
+response.getWriter().println("<div class='container'>");
+response.getWriter().println("  <p class='warning'>Warning:</p>");
+response.getWriter().println("  <p>File with the same original filename already exists.</p>");
+response.getWriter().println("  <a href='home.jsp' class='goback-button'>Go Back</a>");
+response.getWriter().println("</div>");
+response.getWriter().println("</body>");
+response.getWriter().println("</html>");
+
                     return;
                 }
 
