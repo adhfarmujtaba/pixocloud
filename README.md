@@ -75,64 +75,82 @@ The project is designed with the potential for further enhancements, such as ima
 
 **Screenshots**:
 
-**1. Login Page**:
+**1. Login Page With Animated Background**:
 
 ![Login - Google Chrome 2023-10-26 12-58-56](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/bd65013d-08ad-4975-b2cf-2ee793ea8e7e)
 
-**2. Registration Page**:
+**2. Registration Page with Animated Background**:
 
 ![User Registration - Google Chrome 2023-10-26 13-06-42](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/523667b8-86a2-4327-ba75-33e6d3d9ac4b)
 
 
-**3. Redirect to login after Secessfull Registration**:
+**3. After completing the registration process, users will be redirected to the login page.**:
 
 ![Untitled desi](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/c1b93740-ff55-4694-acaa-e316fe1bc658)
 
-**4.Home View**:
+**4. Home View**:
 
-**1. Home Loading spinner**:
+**1. When the page initially loads, it displays a professional-grade spinner loader, which remains active until all page content has fully loaded.**:
 
 ![Login - Google Chrome 2023-10-26 13-14-59](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/924a8739-93ef-4526-91bf-d1e34eccc529)
 
 **2. Home Shimmer loading effect on Images and full view of home page**:
 
+**functions :**
+**Home Page allows users to effortlessly upload image files in a range of formats, encompassing JPEG, PNG, GIF, WebP, and SVG. Additionally, it boasts a refined user experience with features like a Spinner loader and shimmer loading for images, enhancing the overall interaction and ensuring seamless performance.**
+
 ![home view](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/83611640-e291-4cd8-baea-2c16ad3ec567)
 
-**5.Advanced Image Uploading with Multi-File Selection**:
+**5. Advanced Image Uploading with Multi-File Selection**:
+
+**Through the upload button, users have the capability to simultaneously upload multiple images at once, streamlining the process and enhancing efficiency.**
 
 ![Untitled design](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/2716d153-c5c6-4ce6-bff2-9a559b227eb6)
 
 
-
-**6.Select button For Select image one by one**:
+**6. Image Selection: Users have the option to individually select images for deletion, one at a time.**:
 
 ![Select Button](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/6cee3966-eba4-4f70-ab73-fc80f41d0b2b)
 
 
-**7.User can Select all images and also can Unselect them**:
+**7. Batch Selection and Deselection of Images**:
+
+**Select All Images: This function allows users to collectively select all images at once.**
+
+**Deselect All Images: This feature enables users to unselect all currently chosen images.**
 
 ![SelectAll and Unselect Button](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/c390764b-23c4-48d9-963f-7f919b8c8fe9)
 
 
-**8.Delete Button with Warning Dialog box**:
+**8. Delete Functionality**:
+
+**Delete Functionality: Users have the ability to remove images from the system. Whenever a user initiates a deletion action, they will receive a prompt with a warning message, ensuring deliberate confirmation of the action**.
 
 ![Delete button](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/2a0c0d2b-8cbf-4a31-99eb-768abc194c0c)
 
 
-**9.full screen View and user can Download image and can  Scroll with Arrows**:
+**9. Full screen View and user can Download image and can  Scroll with Arrows**:
+
+**The user has the ability to view any image in fullscreen mode by clicking on it. Additionally, they can download the image. Furthermore, they can navigate through the images using arrow keys.**
 
 ![full screen](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/12d6aa53-3bfb-48b1-b86f-1471b56b8d7b)
 
 
 **10.Profile Avatar where user can update profile and can logout**:
 
+**Empowering users to update their profile information and log out securely.**
+
 ![Avatar profile](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/e2bc984e-237a-4605-9b1c-a6f700259b63)
 
-**1. Update Profile and after Update Profile view**:
+**1. Profile Information Management**:
+
+**Users can effortlessly update their profile details and can view the updated profile after successful changes.**
 
 ![profile update](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/a0741b0c-ac96-41ff-ae30-82c891a919ee)
 
-**2. Logout**:
+**2. Logout Functionality**:
+
+**Users can securely log out at any time by using the designated 'Logout' button**
 
 ![logout](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/343342a4-88a4-4178-947f-24ce5578ed67)
 
