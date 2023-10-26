@@ -48,6 +48,14 @@
 14. **Preventing Duplicate Images**:
     - PixoCloud enforces measures to prevent users from uploading duplicate images.
 
+15. **Loading Spinner**: A loading spinner is implemented to enhance the user experience. It appears during image loading and other data processing operations. The spinner provides a visual indication that the system is working on a task, improving user feedback.
+
+16. **Shimmer Effect**: The user interface features a shimmer effect on image cards, providing a subtle animated effect that adds a modern and engaging element to the design. This effect increases visual appeal and engagement on image grids.
+
+17. **Profile Editing**: Users now have the capability to edit their profile information. They can update their full name, email address, physical address, and mobile number. This feature allows users to maintain up-to-date and accurate account information.
+
+18. **Dynamic User Interface for Mobile Devices**: The application is designed to be responsive and user-friendly on various devices, including mobile phones and tablets. It ensures a consistent and optimized user experience across different screen sizes.
+
 **Technologies Used**:
 
 - **Java Servlets**: For server-side handling of HTTP requests, file uploads, and database interactions.
@@ -61,7 +69,7 @@
 
 PixoCloud, the "Image Management System" built with JSP technology, offers an accessible and organized solution for users to store and manage their images. Users can access their image collection from any location with an internet connection, making it a versatile choice for individuals seeking to keep their images well-organized and readily accessible online. The robust authentication, secure database storage, data encryption, and user privacy features ensure that user data remains confidential and protected.
 
-The project is designed with the potential for further enhancements, such as image tagging, sharing, and advanced searching capabilities, to provide an even richer user experience.
+The project is designed with the potential for further enhancements, such as image tagging, sharing, and advanced searching capabilities, to provide an even richer user experience. The addition of loading spinners, shimmer effects, profile editing, and mobile responsiveness adds modern elements and usability to the application.
 
 
 
