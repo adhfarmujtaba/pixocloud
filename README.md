@@ -98,13 +98,13 @@ The project is designed with the potential for further enhancements, such as ima
 
 ![home view](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/83611640-e291-4cd8-baea-2c16ad3ec567)
 
-**5.You can Upload Multiple Image at a time**:
+**5.Advanced Image Uploading with Multi-File Selection**:
 
 ![Untitled design](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/2716d153-c5c6-4ce6-bff2-9a559b227eb6)
 
 
 
-**6.select button For Select image one by one**:
+**6.Select button For Select image one by one**:
 
 ![Select Button](https://github.com/adhfarmujtaba/pixocloud/assets/114349895/6cee3966-eba4-4f70-ab73-fc80f41d0b2b)
 
